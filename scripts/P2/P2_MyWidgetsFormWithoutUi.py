@@ -12,28 +12,28 @@ class MyWindow(QtWidgets.QWidget):
 
         self.pb_left_top = QtWidgets.QPushButton()
         self.pb_left_top.setText("Лево/верх")
-        self.pb_left_top.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
-                                       QtWidgets.QSizePolicy.Policy.Expanding)
+        # self.pb_left_top.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
+        #                                QtWidgets.QSizePolicy.Policy.Expanding)
 
         self.pb_right_top = QtWidgets.QPushButton()
         self.pb_right_top.setText("Право/верх")
-        self.pb_right_top.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
-                                       QtWidgets.QSizePolicy.Policy.Expanding)
+        # self.pb_right_top.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
+        #                                QtWidgets.QSizePolicy.Policy.Expanding)
 
         self.pb_center = QtWidgets.QPushButton()
         self.pb_center.setText("Центр")
-        self.pb_center.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
-                                       QtWidgets.QSizePolicy.Policy.Expanding)
+        # self.pb_center.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
+        #                                QtWidgets.QSizePolicy.Policy.Expanding)
 
         self.pb_left_bottom = QtWidgets.QPushButton()
         self.pb_left_bottom.setText("Лево/низ")
-        self.pb_left_bottom.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
-                                       QtWidgets.QSizePolicy.Policy.Expanding)
+        # self.pb_left_bottom.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
+        #                                QtWidgets.QSizePolicy.Policy.Expanding)
 
         self.pb_right_bottom = QtWidgets.QPushButton()
         self.pb_right_bottom.setText("Право/низ")
-        self.pb_right_bottom.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
-                                       QtWidgets.QSizePolicy.Policy.Expanding)
+        # self.pb_right_bottom.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding,
+        #                                QtWidgets.QSizePolicy.Policy.Expanding)
 
         self.pb_get_parameters = QtWidgets.QPushButton()
         self.pb_get_parameters.setText("Получить параметры")
